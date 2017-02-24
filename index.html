@@ -9,31 +9,36 @@
   </head>
   <body>
 
+    <main>
+
+      <div class="why">
+        <img src="images/logo.png" class="logo">
+      </div>
 
 
-    <img src="images/logo.png" class="logo">
-    <main class="input-area">
-      <form name="sign-up" method="POST" action="#">
-        <h1>Sign Up</h1>
+      <div class="container">
 
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="action-area" id="email" placeholder="foo@bar.com" required />
-        </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="text" class="action-area" id="password" placeholder="1234passw0rd" required />
-        </div>
-      <button type="submit" class="action-area">Sign Up</button><br>
-        <h4>Forgot Password?</h4>
+        <form name="sign-up" method="POST" action="#">
+          <h1>Sign Up</h1>
+
+          <div class="form-group">
+            <label for="email" class="words">Email</label>
+            <input type="email" class="input-area" id="email" placeholder="foo@bar.com" required />
+          </div>
+          <div class="form-group">
+            <label for="password" class="words">Password</label>
+            <input type="text" class="input-area" id="password" placeholder="1234passw0rd" required />
+          </div>
+
+          <button type="submit" class="input-area">Sign Up</button><br>
+          <h4><a href="#">Forgot Password?</a></h4>
+
+      </div>
+
+          <h5>Already have an account? <a href="#">Log in</a></h5>
+        </form>
+
     </main>
-
-        <h5>Already have an account? Login</h5>
-    </form>
-
-
-
-
 
   </body>
 </html>

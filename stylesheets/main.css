@@ -2,26 +2,92 @@ body {
   background-color: deepskyblue;
 }
 
-.logo {
-  margin-left: auto;
-  margin-right: auto;
+main {
+
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+  text-align: center;
+
+}
+
+.words {
+  height: 20px;
+  padding: 10px 0px;
+
+}
+
+img {
   height: 35px;
 }
 
-.input-area {
-  background-color: white;
-  box-sizing: border-box;
+.why {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
   width: 400px;
-  padding-left: 40px;
-  padding-right: 40px;
-
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
-.action-area {
-  margin: auto;
+.container {
+  background-color: white;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 480px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 3px;
+}
+
+.input-area {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: auto;
+  font-size: 22px;
   height: 55px;
   width: 320px;
   padding: 15px;
   border: 2px solid #c8c8c8;
+  border-radius: 3px;
+}
+
+button {
+  display: inline-block;
+  background-color: seagreen;
+  color: white;
+  font-size: 20px;
+  height: 55px;
+  width: 320px;
+  padding-top: 15px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+h4 {
+  position: relative;
+  bottom: 15px;
+  text-align: center;
+}
+
+h4 > a {
+  font-size: 18px;
+  color: #c8c8c8;
+}
+
+h5 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+h5 > a {
+  font-size: 18px;
+  color: white;
 }
